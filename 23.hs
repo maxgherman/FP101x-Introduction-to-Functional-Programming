@@ -1,0 +1,5 @@
+
+ instance Monoid [] where
+ 	mempty = []
+	(<>) = (++)
+
